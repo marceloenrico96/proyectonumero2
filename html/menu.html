@@ -50,48 +50,63 @@
 
   <main>
 
-    <div class="container-menu">
-      <h1>Café Lab Menu</h1>
-      <hr>
-
-      <div class="item">
-        <h2>Café</h2>
-        <p class="producto">Espresso Single</p>
-        <p class="precio">32DKK</p>
-        <p class="producto">Espresso doble</p>
-        <p class="precio">35DKK</p>
-        <p class="producto">Café Americano</p>
-        <p class="precio">36DKK</p>
-        <p class="producto">Latte macchiatto</p>
-        <p class="precio">38DKK</p>
-        <p class="producto">Cafe Latte</p>
-        <p class="precio">40DKK</p>
-        <p class="producto">Capuccino</p>
-        <p class="precio">40DKK</p>
+    <div class="accordion accordion-flush" id="menu-cafe">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Nuestros Cafés
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p>Espresso Single//30DKK</p>
+            <p>Espresso Doble//32DKK</p>
+            <p>Latte Machiatto//36DKK</p>
+            <p>Cafe Americano//38DKK</p>
+            <p>Cafe Latte//42DKK</p>
+            <p>Capuccino//42DKK</p>
+          </div>
+        </div>
       </div>
-      <hr>
-
-      <div class="item">
-
-        <h2>Panaderia</h2>
-        <p class="producto">Cookie</p>
-        <p class="precio">15DKK</p>
-        <p class="producto">Croissant</p>
-        <p class="precio">20DKK</p>
-        <p class="producto">Muffin</p>
-        <p class="precio">22DKK</p>
-        <p class="producto">Rol de Canela</p>
-        <p class="precio">25DKK</p>
-        <p class="producto">Spandau Creme</p>
-        <p class="precio">25DKK</p>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Pasteleria
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p>Croissant//20DKK</p>
+            <p>Cookie//22DKK</p>
+            <p>Muffin//25DKK</p>
+            <p>Rol de Canela//25DKK</p>
+            <p>Spandau Creme//25DKK</p>
+          </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Extras
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Leche de Avena//5DKK</p>
+                <p>Extra Espresso Shot//10DKK</p>
+                <p>Crema Batida//10DKK</p>
+                <p>Tostada C/Manteca y Queso//20DKK</p>
+              </div>
+            </div>
+          </div>
+        
+      </div>
       </div>
     </div>
 
   </main>
 
-
-
-  <footer class="footer">
+  <div class="wrapper">
+   <footer class="footer">
     <ul class="social-icon">
       <li class="icon-elem">
         <a href="https://www.instagram.com/"><img src="../imagenes/instagram.svg" alt=""></a>
@@ -121,8 +136,8 @@
       </li>
     </ul>
     <p>2025|Todos los derechos reservados|Author: Marcelo E. Enrico</p>
-
   </footer>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
