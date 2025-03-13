@@ -19,6 +19,7 @@
 body {
     background-color: #f5f5f5 !important;
 }
+
 .portada {
     display: flex;
     
@@ -41,6 +42,10 @@ body {
     font-size: 20px;
 }
 
+#inicio-web-subtitle{
+    text-align: center;
+}
+
 .inicio-web h2 {
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
@@ -52,6 +57,7 @@ body {
 .container-cafe {
     width: 80%;
     height: auto;
+    margin: auto;
 }
 
 .inicio-web2 {
@@ -325,6 +331,7 @@ margin: 30px;
 
 .footer ul {
     list-style-type: none;
+    padding: 0px;
     
 }
 .footer a {
@@ -344,11 +351,55 @@ margin: 30px;
     margin: 10px 5px;
     gap: 20px;
     flex-wrap: wrap;
+    padding: 0px;
 }
 
 
 .social-icon img {
     width: 30px;
     height: 20px;
+}
+
+/* media queries para mobile */
+@media (max-width: 768px) {
+
+    /*Cafes*/
+
+    .cafes-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pais-cafe{
+        font-size: 40px;
+    }
+
+    /* Carreras */
+
+    .carreras-cafe{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carreras-cafe img{
+        width: 300px;
+        height: auto;
+    }
+
+    /*footer*/
+
+    .footer-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+
+
+    }
+
+    .footer p{
+        text-align: center;
+        font-size: 10px;
+    }
+    
 }
 
