@@ -1,0 +1,9 @@
+$font-style: "Roboto Mono", monospace;
+
+.container-fluid {
+    font-family: $font-style;
+}
+
+.navbar-nav {
+    gap: 15px;
+}

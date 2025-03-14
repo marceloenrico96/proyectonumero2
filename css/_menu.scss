@@ -1,0 +1,14 @@
+.body-menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+}
+
+#menu-cafe{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Mono", monospace;
+    width: 90%;
+    height: auto;
+    margin: 20px;
+
+}
