@@ -255,6 +255,9 @@ body {
 .container-form {
   font-family: "Roboto Mono", monospace;
 }
+.container-form form {
+  margin: 15px;
+}
 
 .direccion-contacto {
   display: flex;

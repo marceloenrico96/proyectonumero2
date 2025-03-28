@@ -4,6 +4,10 @@ $font-style: "Roboto Mono", monospace;
 
 .container-form{
     font-family: $font-style;
+    
+    form{
+        margin: 15px;
+    }
 }
 
 .direccion-contacto{
